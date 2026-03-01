@@ -1,0 +1,2351 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/itsorganic/concatinate/fintech/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [118411] using StatReload
+INFO:     Started server process [118464]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=EUR,GBP,JPY,AUD,CAD,CHF "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:48402 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48402 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 1/5000
+INFO:     127.0.0.1:54284 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 2/5000
+INFO:     127.0.0.1:49932 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 3/5000
+INFO:     127.0.0.1:40546 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48586 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 4/5000
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 5/5000
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 6/5000
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 7/5000
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is true. Falling back to Premium API.
+INFO:main:Using Premium API. Calls made: 8/5000
+INFO:     127.0.0.1:53578 - "GET /api/rates?force_failWARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Started server process [121997]
+INFO:     Waiting for application startup.
+INFO:main:Starting background price streaming task...
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121997]
+INFO:     Started server process [122978]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [122978]
+INFO:     Started server process [124136]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [124136]
+INFO:     Started server process [125888]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+ERROR:main:Error fetching from Frankfurter API: 
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125888]
+INFO:     Started server process [125958]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125958]
+INFO:     Started server process [129724]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+ERROR:main:Error fetching from Frankfurter API: 
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [129724]
+INFO:     Started server process [131687]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+ to Premium API.
+INFO:main:Using Premium API. Calls made: 10/5000
+INFO:     127.0.0.1:48320 - "GET /api/rates?force_fail=true HTTP/1.1" 200 OK
+INFO:main:Serving from cache
+INFO:     127.0.0.1:48320 - "GET /api/rates?force_fail=false HTTP/1.1" 200 OK
+WARNING:main:Public API failed or force_fail is WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Started server process [121998]
+INFO:     Waiting for application startup.
+INFO:main:Starting background price streaming task...
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121998]
+INFO:     Started server process [122982]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [122982]
+INFO:     Started server process [124138]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [124138]
+INFO:     Started server process [125887]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125887]
+INFO:     Started server process [125959]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125959]
+INFO:     Started server process [129723]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+ERROR:main:Error fetching from Frankfurter API: 
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [129723]
+INFO:     Started server process [131689]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+ction closed
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from stream.
+INFO:main:Client disconnected from stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [122000]
+INFO:     Started server process [122983]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 47612) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47618) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47624) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47640) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52632) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52636) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52650) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52666) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53454) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53466) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53474) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47336) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47338) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 47340) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47348) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47352) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 47366) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56218) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56232) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56238) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56246) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37426) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37436) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37442) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37452) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58236) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58244) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58254) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58270) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33214) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33222) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33228) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35788) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35802) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35806) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52808) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52822) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52836) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52852) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59572) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59586) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59592) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59608) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59198) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59200) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42548) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42562) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38784) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38790) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38802) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38814) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34196) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34204) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50742) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50754) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 32868) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 32872) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 32878) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54612) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54620) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54632) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57714) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57724) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52312) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52316) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45446) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45458) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52092) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52104) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52106) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38194) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38206) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38218) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50620) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50624) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50626) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46464) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46472) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40518) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40520) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33556) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33570) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55074) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55086) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55090) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55104) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44790) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44800) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55240) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55244) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55250) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42004) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 42014) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55894) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55904) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55914) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59764) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59768) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51926) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51932) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45742) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45750) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56224) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56234) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37014) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37028) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37030) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37032) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37318) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37332) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37342) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37358) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60752) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60762) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60764) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60776) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56370) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56380) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [122983]
+INFO:     Started server process [124135]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 56382) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56394) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56404) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51714) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51726) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51730) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51732) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51736) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51740) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51748) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36614) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36624) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36630) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36640) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46440) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46442) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46450) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46454) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59174) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59186) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59198) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59200) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51050) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51056) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51070) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51074) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:51076 - "OPTIONS /api/force-fail HTTP/1.1" 200 OK
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:51086 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 41724) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41732) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41738) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41744) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35080) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35094) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35100) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35106) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34450) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34466) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34470) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34486) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48164) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48178) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48194) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48204) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49958) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49964) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49966) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49980) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44424) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44434) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44448) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44460) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40548) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40554) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40570) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40584) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35032) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35042) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35054) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51532) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51538) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51552) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51560) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59680) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:59692 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 59696) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59698) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:51948 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51960) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51966) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35906) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:35912 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 35914) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43114) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43130) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43146) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36492) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36508) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36522) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52308) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52318) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52332) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36838) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36852) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52510) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52524) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55516) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55520) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39214) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39216) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41150) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41160) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41168) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45060) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45070) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48724) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48736) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48744) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48746) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45826) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38032) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38036) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49092) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49100) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 49110) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45322) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45334) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55934) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55946) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55958) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50074) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50078) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59604) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59612) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34496) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34508) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44698) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44706) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44708) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44712) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48168) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48184) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33344) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33354) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48486) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48494) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48506) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45928) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45934) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45942) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37870) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37876) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59976) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59990) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55354) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55368) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37470) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37476) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37492) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34504) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34510) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36212) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36224) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36226) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35700) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35708) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52298) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52306) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59062) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59074) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59080) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42420) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42436) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42444) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42450) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48800) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48802) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57302) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57306) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40344) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40356) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37440) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37448) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37456) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37468) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51404) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51416) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34160) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34162) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46712) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46724) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:46730 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 46744) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57358) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57374) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57380) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57394) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57458) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57472) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57474) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57480) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51898) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51912) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51914) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51924) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [124135]
+INFO:     Started server process [125890]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 51878) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:51888 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51894) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:51888 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51906) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51912) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:51888 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51928) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51942) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125890]
+INFO:     Started server process [125960]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 51944) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 53080) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 53084) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53090) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 53100) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 53112) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 53116) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53122) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42946) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:42950 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 42960) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:42950 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 42970) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42982) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51412) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51428) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51430) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51434) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53430) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53434) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53438) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53448) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42412) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42416) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 42422) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42434) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42436) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 42444) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57084) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57098) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57108) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57110) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 57124) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37352) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37364) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 37380) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37390) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37392) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52966) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52974) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52978) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52988) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40994) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41006) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41012) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41024) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45390) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45392) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45396) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45404) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58766) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58772) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58782) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58788) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35138) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35144) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35148) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35150) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57646) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57648) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57654) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57666) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36524) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36528) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36532) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36538) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43152) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43162) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43164) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 43178) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39716) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39718) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39720) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39722) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50322) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50338) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50350) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50362) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55512) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55528) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55534) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55538) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58020) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58030) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58032) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58038) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56156) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56162) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56168) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56180) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44494) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44500) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44510) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44526) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54136) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54144) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54156) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54158) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41636) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41640) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41644) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41654) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44898) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44900) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44912) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35750) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35756) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51410) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51426) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51428) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51440) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33814) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36862) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36868) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 36878) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36886) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 36896) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41826) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41834) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41850) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41866) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53982) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53992) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54004) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54012) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47434) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47442) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47456) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47468) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37988) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37994) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38004) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35080) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35092) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35106) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35120) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35122) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35128) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40788) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 40802) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40804) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40812) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 40816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40822) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48008) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48018) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48022) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48038) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34168) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34178) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34186) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34192) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53460) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53462) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53472) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53486) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34328) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34334) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34340) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34346) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48772) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48784) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48786) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48790) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41020) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41024) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41032) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41040) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59658) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59664) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59674) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59682) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38982) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38994) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38998) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39008) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60506) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60516) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60526) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34234) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34244) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34248) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34258) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46838) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46854) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46856) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46866) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49614) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49630) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49646) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49660) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60302) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60318) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60334) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60346) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50062) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50068) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50084) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50096) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56796) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56810) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56814) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 45992) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46006) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46016) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 46022) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39240) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39246) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39256) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40630) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40636) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 40638) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58744) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58746) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52188) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52194) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     ('127.0.0.1', 52208) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 52222) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52224) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 52240) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54560) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 54576) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49930) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49934) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49936) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48712) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 48714) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36262) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36276) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36278) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58920) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58936) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57500) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57516) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 57524) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60432) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60440) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33812) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33820) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44146) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44160) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50254) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 50270) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58552) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58566) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58580) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37702) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37704) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37714) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37354) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37368) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42538) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42552) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 42562) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34470) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34484) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 34488) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49744) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49760) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39968) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 39972) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35578) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35586) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35598) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49330) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 49338) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41700) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41710) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41722) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52330) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52344) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 52356) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59194) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 59204) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36264) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36276) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 36292) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 36304) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 36320) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 44712) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44722) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 44724) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 38794) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38802) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 38812) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60224) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60226) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60234) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35510) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35518) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35528) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35544) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35560) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35566) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35576) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35590) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33808) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33814) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33816) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 33822) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:33832 - "OPTIONS /api/force-fail HTTP/1.1" 200 OK
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:33842 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 53570) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53584) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:33842 - "POST /api/force-fail HTTP/1.1" 200 OK
+ERROR:main:Error fetching from Frankfurter API: 
+INFO:     ('127.0.0.1', 53598) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 53600) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35760) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35762) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:35764 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 35768) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35780) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55438) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55448) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55462) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 55466) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:35136 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 35142) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35154) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35166) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35174) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56212) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56228) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56234) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56246) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     ('127.0.0.1', 47638) - "WebSocket /ws/stocks/stream" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:main:Force public fail set to: True
+INFO:     127.0.0.1:47124 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:main:Force public fail set to: False
+INFO:     127.0.0.1:47130 - "POST /api/force-fail HTTP/1.1" 200 OK
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51714) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 51724) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [125960]
+INFO:     Started server process [129726]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 35124) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35130) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35144) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35156) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 35172) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+ERROR:main:Error fetching from Frankfurter API: 
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35430) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 35436) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 49718) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 49728) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     127.0.0.1:42530 - "OPTIONS /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=True
+INFO:     127.0.0.1:42532 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=True
+INFO:     127.0.0.1:33174 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=False
+INFO:     127.0.0.1:40252 - "POST /api/state HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:main:State updated: premium=False, fail=True
+INFO:     127.0.0.1:37792 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=True
+INFO:     127.0.0.1:47210 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=False
+INFO:     127.0.0.1:43822 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=True
+INFO:     127.0.0.1:43822 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=True
+INFO:     127.0.0.1:53606 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=False
+INFO:     127.0.0.1:32940 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=False
+INFO:     127.0.0.1:32954 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=False
+INFO:     127.0.0.1:32954 - "POST /api/state HTTP/1.1" 200 OK
+ERROR:main:Error fetching from Frankfurter API: 
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60194) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60198) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 60210) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 37884) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [129726]
+INFO:     Started server process [131684]
+INFO:     Waiting for application startup.
+INFO:main:Starting background rate streaming task...
+INFO:     Application startup complete.
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:     ('127.0.0.1', 37886) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 37902) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 37914) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open

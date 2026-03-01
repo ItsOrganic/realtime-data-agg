@@ -1,0 +1,141 @@
+nohup: ignoring input
+
+> temp-app@0.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 209 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+11:49:57 AM [vite] hmr update /src/App.jsx
+11:49:57 AM [vite] Internal server error: Failed to resolve import "./components/StockCard" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/itsorganic/concatinate/fintech/frontend/src/App.jsx:2:22
+  17 |  var _s = $RefreshSig$();
+  18 |  import React, { useState, useEffect, useRef } from "react";
+  19 |  import StockCard from "./components/StockCard";
+     |                         ^
+  20 |  import ConnectionIndicator from "./components/ConnectionIndicator";
+  21 |  import { Activity, Zap } from "lucide-react";
+      at TransformPluginContext._formatError (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+11:50:17 AM [vite] page reload src/components/StockCard.jsx
+11:50:17 AM [vite] Pre-transform error: Failed to resolve import "./components/ConnectionIndicator" from "src/App.jsx". Does the file exist?
+11:50:17 AM [vite] Internal server error: Failed to resolve import "./components/ConnectionIndicator" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/itsorganic/concatinate/fintech/frontend/src/App.jsx:3:32
+  18 |  import React, { useState, useEffect, useRef } from "react";
+  19 |  import StockCard from "./components/StockCard";
+  20 |  import ConnectionIndicator from "./components/ConnectionIndicator";
+     |                                   ^
+  21 |  import { Activity, Zap } from "lucide-react";
+  22 |  import "./index.css";
+      at TransformPluginContext._formatError (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///home/itsorganic/concatinate/fintech/frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+11:50:25 AM [vite] page reload src/components/ConnectionIndicator.jsx
+11:50:27 AM [vite] hmr update /src/index.css
+11:55:29 AM [vite] hmr update /src/App.jsx
+11:55:32 AM [vite] hmr update /src/components/RateCard.jsx
+12:01:40 PM [vite] hmr update /src/App.jsx
+12:01:42 PM [vite] hmr update /src/components/ConnectionIndicator.jsx
+12:12:32 PM [vite] hmr update /src/App.jsx
+12:12:47 PM [vite] hmr update /src/App.jsx
+12:16:22 PM [vite] hmr update /src/App.jsx
+12:17:16 PM [vite] hmr update /src/App.jsx
+12:17:22 PM [vite] hmr update /src/App.jsx
+12:20:30 PM [vite] hmr update /src/index.css
+12:21:45 PM [vite] hmr update /src/index.css
+12:24:36 PM [vite] hmr update /src/App.jsx
+12:24:38 PM [vite] hmr update /src/index.css
+12:25:13 PM [vite] hmr update /src/App.jsx
+12:28:06 PM [vite] hmr update /src/App.jsx
+12:28:06 PM [vite] hmr update /src/index.css
+12:31:45 PM [vite] hmr update /src/App.jsx
+12:31:45 PM [vite] Internal server error: /home/itsorganic/concatinate/fintech/frontend/src/App.jsx: Expected corresponding JSX closing tag for <main>. (162:12)
+
+  160 |                 </section>
+  161 |                     )}
+> 162 |             </section>
+      |             ^
+  163 |         </div>
+  164 |     );
+  165 | }
+  Plugin: vite:react-babel
+  File: /home/itsorganic/concatinate/fintech/frontend/src/App.jsx:162:12
+  160|                  </section>
+  161|                      )}
+  162|              </section>
+     |              ^
+  163|          </div>
+  164|      );
+      at constructor (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:4727:16)
+      at JSXParserMixin.jsxParseElementAt (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12086:10)
+      at /home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12403:14)
+      at JSXParserMixin.parseFunction (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13444:10)
+      at JSXParserMixin.parseFunctionStatement (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13125:17)
+      at JSXParserMixin.parseStatementContent (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12791:21)
+      at JSXParserMixin.parseStatementLike (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/itsorganic/concatinate/fintech/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+12:32:16 PM [vite] hmr update /src/App.jsx
+12:42:03 PM [vite] .env changed, restarting server...
+12:42:03 PM [vite] server restarted.
+12:42:12 PM [vite] hmr update /src/App.jsx
