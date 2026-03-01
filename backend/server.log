@@ -2349,3 +2349,68 @@ INFO:     connection open
 INFO:     ('127.0.0.1', 37914) - "WebSocket /ws/rates/stream" [accepted]
 INFO:main:New client connected to rate stream.
 INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60460) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 60462) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     ('127.0.0.1', 60478) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:     127.0.0.1:33904 - "OPTIONS /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=False
+INFO:     127.0.0.1:33916 - "POST /api/state HTTP/1.1" 200 OK
+ERROR:main:Error fetching from Frankfurter API: 
+INFO:main:State updated: premium=True, fail=False
+INFO:     127.0.0.1:50388 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=True, fail=True
+INFO:     127.0.0.1:41578 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=True
+INFO:     127.0.0.1:41584 - "POST /api/state HTTP/1.1" 200 OK
+INFO:main:State updated: premium=False, fail=False
+INFO:     127.0.0.1:48136 - "POST /api/state HTTP/1.1" 200 OK
+ERROR:main:Error fetching from Frankfurter API: 
+ERROR:main:Error fetching from Frankfurter API: 
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51322) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51324) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+ERROR:main:Error fetching from Frankfurter API: [Errno -2] Name or service not known
+INFO:     ('127.0.0.1', 35788) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:httpx:HTTP Request: GET https://api.frankfurter.app/latest?from=USD&to=INR,EUR,GBP,JPY,AUD,CAD,CHF,CNY,NZD,SGD "HTTP/1.1 200 OK"
+INFO:main:Client disconnected from rate stream.
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41042) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 41050) - "WebSocket /ws/rates/stream" [accepted]
+INFO:main:New client connected to rate stream.
+INFO:     connection open
+INFO:main:Client disconnected from rate stream.
+INFO:     connection closed
+INFO:     127.0.0.1:43400 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43400 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43400 - "GET / HTTP/1.1" 404 Not Found
